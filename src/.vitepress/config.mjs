@@ -5,7 +5,7 @@ export default defineConfig({
   title: "stimulus",
   description:
     "The speed of a single-page web application without having to write any JavaScript.",
-  outDir: "../dist",
+  outDir: "../docs",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
