@@ -14,7 +14,7 @@ export default defineConfig({
       { text: "content", link: "/content/1.介绍.md" },
     ],
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/travelless/stimulus" },
     ],
   },
   vite: {
