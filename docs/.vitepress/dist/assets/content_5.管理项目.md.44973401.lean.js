@@ -1,0 +1,1 @@
+import{_ as s,o as n,c as a,Q as l}from"./chunks/framework.60987345.js";const F=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"content/5.管理项目.md","filePath":"content/5.管理项目.md"}'),p={name:"content/5.管理项目.md"},o=l("",56),e=[o];function t(c,r,E,y,i,d){return n(),a("div",null,e)}const h=s(p,[["render",t]]);export{F as __pageData,h as default};

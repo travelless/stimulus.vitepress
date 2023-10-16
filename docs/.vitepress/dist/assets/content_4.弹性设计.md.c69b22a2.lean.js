@@ -1,1 +1,0 @@
-import{_ as s,o as a,c as p,Q as n}from"./chunks/framework.7adef1ff.js";const b=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"content/4.弹性设计.md","filePath":"content/4.弹性设计.md"}'),o={name:"content/4.弹性设计.md"},l=n("",24),t=[l];function e(c,r,i,E,y,d){return a(),p("div",null,t)}const h=s(o,[["render",e]]);export{b as __pageData,h as default};

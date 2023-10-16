@@ -1,19 +1,27 @@
 {
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "preview": "vitepress preview docs"
+    "dev": "env-cmd vitepress dev docs",
+    "build": "env-cmd vitepress build docs",
+    "preview": "env-cmd vitepress preview docs"
   },
+  "type": "module",
   "name": "stimulus",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
-    "eslint-config-google": "^0.14.0",
-    "eslint-plugin-vue": "^9.17.0"
+    "less": "^4.2.0"
   },
   "dependencies": {
+    "@duskmoon/vue3-typed-js": "^0.0.4",
+    "axios": "^1.5.1",
+    "element-plus": "^2.4.0",
+    "env-cmd": "^10.1.0",
+    "gitalk": "^1.8.0",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.2",
     "vite-plugin-vitepress-auto-sidebar": "^1.6.1",
-    "vitepress": "^1.0.0-rc.20"
+    "vitepress": "^1.0.0-rc.20",
+    "vue": "^3.3.4"
   }
 }
