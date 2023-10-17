@@ -1,5 +1,4 @@
 :root {
-
   --vp-c-brand: #2563eb !important;
   --vp-c-brand-light: var(--vp-c-brand);
   --vp-c-brand-lighter: var(--vp-c-brand);
@@ -16,7 +15,6 @@
 .dark {
   --vp-c-brand: #3b82f6;
 }
-
 
 /* theme reset start */
 
@@ -40,7 +38,8 @@
   font-family: var(--date-font-family);
 }
 
-.content a[rel~='noreferrer']:link, a[rel~='noreferrer']:visited {
+.content a[rel~='noreferrer']:link,
+a[rel~='noreferrer']:visited {
   color: var(--vp-c-brand);
   font-weight: 500 !important;
   border-bottom: 1px solid var(--vp-c-brand);
@@ -85,61 +84,59 @@ h3 {
   max-width: 60rem !important;
 }
 
-
 @media (min-width: 768px) {
   .VPDoc {
-      padding-top: 10px !important;
+    padding-top: 10px !important;
   }
 }
 @media (min-width: 960px) {
   .VPDoc {
-      padding-top: 10px !important;
+    padding-top: 10px !important;
   }
 
   .VPDoc:not(.has-sidebar) .content {
-      max-width: inherit !important;
+    max-width: inherit !important;
   }
   .VPDocAsideOutline .content {
-      padding-left: 14px !important;
+    padding-left: 14px !important;
   }
   .content {
-      padding: 0 !important;
+    padding: 0 !important;
   }
 }
 /* when witdh less 1440 hide the aside 小于1440就到下一挡*/
 @media (min-width: 1280px) {
   .VPDoc .aside {
-      display: none !important;
+    display: none !important;
   }
 }
 
 @media (min-width: 1440px) {
   .VPDoc .aside {
-      display: block !important;
+    display: block !important;
   }
 }
-
 
 /*mobile*/
 @media screen and (max-width: 768px) {
   .VPDoc {
-      padding-top: 10px !important;
-      padding-bottom: 20px !important;
+    padding-top: 10px !important;
+    padding-bottom: 20px !important;
   }
   .vp-doc h1 {
-      font-size: 1.25rem !important;
+    font-size: 1.25rem !important;
   }
   .posts {
-      padding: 4px;
+    padding: 4px;
   }
   .post-dot {
-      margin-right: 4px;
+    margin-right: 4px;
   }
   .post-container {
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      width: 16.5em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 16.5em;
   }
 }
 

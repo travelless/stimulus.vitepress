@@ -5,7 +5,7 @@ layout: home
 <Comments></Comments>
 
 <script setup>
-import Comments from "./components/comments.vue";
+import Comments from "./components/CommentsPage.vue";
 </script>
 <style>
   .VPHome{

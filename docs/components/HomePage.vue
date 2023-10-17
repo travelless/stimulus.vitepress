@@ -10,19 +10,19 @@
 </template>
 
 <script setup>
-import { Typed } from "@duskmoon/vue3-typed-js";
+import { Typed } from '@duskmoon/vue3-typed-js'
 
 const options = {
-  strings: ["简化繁杂的js代码", "最轻量的web框架"],
+  strings: ['简化繁杂的js代码', '最轻量的web框架'],
   loop: true,
   typeSpeed: 25,
   backDelay: 1500,
-};
+}
 </script>
 
 <style scoped lang="less">
 .home {
-  height: calc(~"100vh - 64px");
+  height: calc(~'100vh - 64px');
   display: flex;
   flex-direction: column;
   text-align: center;

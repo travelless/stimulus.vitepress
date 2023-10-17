@@ -3,7 +3,7 @@ layout: home
 ---
 
 <script setup>
-import Home from "./components/home.vue";
+import Home from "./components/HomePage.vue";
 </script>
 
 <Home></Home>
